@@ -38,5 +38,104 @@
 /* 1st banner */
 .first-part{
     display: flex;
+    flex-direction: row;
+    justify-items:end;
+    background-color: #C6E4D6;
+    padding: 80px 100px;
+    border: 20px 40px 80px 30px;
+    border-radius:24px ;
+    height: 560px;
+    width: 1280px; 
+}
+.first-section{
+   margin: 20px 160px 80px 200px;
+   
+   
+}
+/* text part */
+.text-part p{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font: weight 200px;;
+}
+.text-part h3{
+    color: rgba(14, 14, 14, 1);
+    font-size: 56px;
+    font-weight: 700;
+}
+.new-bangladesh{
+    background-color: #006A50;
+    color: #FFFFFF;
+    width: 270px;
+    height: 56px;
+    border-radius: 8px;
+}
+/* cards */
+.cards-container{
+    display: flex;
     justify-content: space-between;
+    gap: 24px;
+}
+.card-1{
+    background-color: rgba(84, 144, 245, 0.2);
+
+}
+.card-2{
+    background-color: rgba(198, 228, 214, 1);
+}
+.card-3{
+    background-color: rgba(247, 235, 207, 1);
+}
+.card{
+    border: 1px ;
+    border-radius: 16px;
+    padding: 32px 32px;
+    word-wrap: break-word;
+    
+}
+.button-1{
+    background-color: rgba(84, 144, 245, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 600;
+}
+.button-2{
+    background-color: rgba(9, 161, 92, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 600;
+}
+.button-3{
+    background-color:rgba(255, 194, 57, 1) ;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 600;
+}
+/* font initialize */
+div h3{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+}
+.bold{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 20px;
+    font-weight: 700;
+}
+.bold{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700px;
+}
+.regular{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+.second-part{
+    height: 765px;
+    width: 1280px;
+}
+.second-section{
+    margin: 20px 160px 80px 200px;
 }
