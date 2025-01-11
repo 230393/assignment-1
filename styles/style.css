@@ -139,3 +139,31 @@ div h3{
 .second-section{
     margin: 20px 160px 80px 200px;
 }
+/* quote */
+.block-quote{
+    height:256px;
+    width: 1280px;
+    display: flex;
+    justify-content: center;
+    background-image:url('../images/assets/quote-bg.png');
+    background-repeat: no-repeat;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px ;
+    border-radius: 16px;
+    padding: 48px 24px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.quote{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.8);
+}
+.Yunus-sir{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600px;
+}
+.adviser{
+    color: rgba(14, 14, 14, 0.6);
+}
