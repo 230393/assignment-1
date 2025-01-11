@@ -329,7 +329,6 @@ input[readonly]{
     border: none;
     border-radius: 10px 0px 0px 10px;
     color: rgba(14, 14, 14, 0.3);
-    row-gap: 0px;
 }
 .subscribe button{
     color: rgba(14, 14, 14, 0.3);
@@ -345,5 +344,4 @@ input[readonly]{
     border: none;
     border-radius: 0px 10px 10px 0px;
     text-align:center;
-    row-gap: 0px;
 }
