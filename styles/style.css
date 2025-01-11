@@ -11,7 +11,7 @@
 .nav-bar{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items:center;
 
 }
 .nav-bar button{    
@@ -34,6 +34,13 @@
     padding: 15px 30px;
     border-radius: 8px;
     box-sizing: border-box;
+}
+/* imgae-hero positioning */
+/* first time i use right-bottom but it won't work and set position absolute but it's not work. then i search it copilot and i find the solution. I don't copy there code i tried myself */
+.left-top{
+    position: relative;
+    left: 59.99px;
+    top: 80px;
 }
 /* 1st banner */
 .first-part{
@@ -176,7 +183,6 @@ div h3{
     align-items: center;
     height: 120px;
     width: 1280px;
-    gap: 24px;
 }
 .recent-news{
     color: rgba(14, 14, 14, 1);
@@ -193,4 +199,101 @@ input[readonly]{
     border: none;
     font-size: 16px;
     font-weight: 400;
+}
+/* third-2 */
+.third-2{
+    display: flex;
+    margin: 20px 160px 80px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 402px;
+    width: 1280px;
+    gap: 32px;
+    background-color: #FFFFFF;
+}
+.satelite-photo{  
+    border-radius: 24px;
+    position:relative;
+    right: 0px;
+    top: 30px;
+}
+/* read-more button */
+.read-more{
+    color: #FFFFFF;
+    background-color: rgba(0, 106, 80, 1);
+    height: 48px;
+    width: 139px;
+    padding: 13px 26px;
+    font-weight: 600;
+}
+/* The final hour is near */
+.doante-box{
+    display: flex;
+    margin: 20px 160px 80px 200px;
+    height: 464px;
+    width: 1280px;
+    justify-content: center;
+    align-items: center;
+    gap: 999px;
+}
+.donate{
+    text-align: center;
+    color: rgba(14, 14, 14, 1);
+    font-size: 40px;
+    font-weight: 700;
+}
+.donate-p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+/* tk-btn */
+.tk-btn-2{
+    height: 128px;
+    width: 240px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700px;
+    border: none;
+}
+.tk-btn{
+    display: flex;
+    justify-content: space-between;
+    /* height: 128px;
+    width: 240px; */
+    padding: 40px 40px;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+/* other-amount */
+.other-amount{
+    font-size: 20px;
+    text-align: center;
+    height: 64px;
+    width: 1032px;
+    border: none;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.amount{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+/* donate-now-btn */
+.donate-now-btn{
+    text-align: center;
+}
+.donate-now{
+    width: 151px;
+    height: 56px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 34px;
+    color: #FFFFFF;
+    background-color: rgba(0, 106, 80, 1);
+    border-radius: 8px;
+    
 }
