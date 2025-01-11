@@ -167,3 +167,30 @@ div h3{
 .adviser{
     color: rgba(14, 14, 14, 0.6);
 }
+/* third-part */
+.common{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 160px 80px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 1280px;
+    gap: 24px;
+}
+.recent-news{
+    color: rgba(14, 14, 14, 1);
+    font-size: 40px;
+    font-weight: 700;
+}
+.bangladesh-aim{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+/* input[read-only] */
+input[readonly]{
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+}
